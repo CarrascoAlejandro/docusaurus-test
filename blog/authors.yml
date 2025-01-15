@@ -21,3 +21,14 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+alejandro:
+  name: Alejandro Carrasco
+  title: Ingeniería en Sistemas UCB
+  url: https://github.com/CarrascoAlejandro
+  image_url: https://avatars.githubusercontent.com/u/86273260?v=4
+  page: 
+    permalink: '/recolor-jacarandas'
+  socials:
+    github: CarrascoAlejandro
+    linkedin: miguel-alejandro-carrasco-c%C3%A9spedes-785717215

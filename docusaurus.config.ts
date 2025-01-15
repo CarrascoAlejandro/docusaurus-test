@@ -37,14 +37,16 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
+        docs: false,
+        /* {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        }, */
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -76,13 +78,13 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
+        /* {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        }, */
+        {to: '/', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/CarrascoAlejandro',
           label: 'GitHub',
